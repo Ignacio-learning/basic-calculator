@@ -35,11 +35,11 @@ body {
     /* azul más brillante */
 }
 
-.calc-btn:active {
+/*.calc-btn:active {
     box-shadow: 0 3px #0a1f44;
     transform: translateY(3px);
-    /* efecto de hundido */
-}
+    /* efecto de hundido 
+}*/
 
 .input-style {
 
