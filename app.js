@@ -5,7 +5,7 @@ let lastInput = null;
 const operators = ['+','-','=','/','*'];//poder identificar todos los operadores
 
 function press(value) {
-  if (validateLastImput(value)=== true) {
+  if (validateLastInput(value)=== true) {
     //agregamos el validatelastinput para validar los numeros
     if (currentInput === '0') {
       currentInput = value;
@@ -19,7 +19,7 @@ function press(value) {
 
 }
 
-function validateLastImput(value) {
+function validateLastInput(value) {
 
   const lastCharacter = currentInput.substring(currentInput.length-1);
   //usamos el substring para eliminar el ultimo caracter
